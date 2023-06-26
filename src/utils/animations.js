@@ -102,9 +102,6 @@ export function shiftAnimatedStyles(index, animatedValue, carouselProps) {
     };
   }
 
-  // console.log('animatedTranslate', animatedTranslate);
-  console.log("animatedScale", carouselProps.inactiveSlideScale);
-
   return {
     ...animatedOpacity,
     transform: transform,
